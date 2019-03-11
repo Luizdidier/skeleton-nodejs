@@ -13,4 +13,8 @@ app.use(cookieParser())
 
 app.use('/api', clientRoute)
 
+app.listen(3000, () => {
+    console.log('Server is run...');   
+})
+
 module.exports = app
